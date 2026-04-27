@@ -1,15 +1,8 @@
-name: Aprendiendo GitHub Actions
-run-name: ¡Estoy aprendiendo GitHub Actions!
+name: Aprendiendo triggers
+run-name: ¡Estoy aprendiendo GitHub Actions Triggers!
 on: 
-  push:
-      branches:
-      - main
-      - release/*
-  pull_request:
-    branches:
-    - main
-  schedule:
-  - cron: "0 2 * * 1-5"
+  [pull_request] 
+
     
     
 jobs:
